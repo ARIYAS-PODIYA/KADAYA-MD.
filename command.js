@@ -1,20 +1,68 @@
-var commands = [];
-
-function cmd(info, func) {
-    var data = info;
-    data.function = func;
-    if (!data.dontAddCommandList) data.dontAddCommandList = false;
-    if (!info.desc) info.desc = '';
-    if (!data.fromMe) data.fromMe = false;
-    if (!info.category) data.category = 'misc';
-    if(!info.filename) data.filename = "Not Provided";
-    commands.push(data);
-    return data;
+function _0x303349(_0x2c533f, _0x3d463e, _0x1b69e8, _0x4c67ea, _0x5e97e8) {
+  return _0xa17c(_0x3d463e - 0x14a, _0x4c67ea);
 }
-module.exports = {
-    cmd,
-    AddCommand:cmd,
-    Function:cmd,
-    Module:cmd,
-    commands,
+(function (_0x189950, _0x47d6e5) {
+  var _0x368db7 = _0x189950();
+  while (true) {
+    try {
+      var _0x363ed0 = parseInt(_0xa17c(522, 0x458)) / 1 + parseInt(_0xa17c(542, -0x6a)) / 2 + parseInt(_0xa17c(457, 0x438)) / 3 * (parseInt(_0xa17c(498, 0x2c3)) / 4) + parseInt(_0xa17c(439, 0x15a)) / 5 + -parseInt(_0xa17c(645, -0xad)) / 6 * (parseInt(_0xa17c(464, 0x128)) / 7) + parseInt(_0xa17c(493, -0xa4)) / 8 * (parseInt(_0xa17c(437, 0x2bc)) / 9) + -parseInt(_0xa17c(616, 0x438)) / 10;
+      if (_0x363ed0 === _0x47d6e5) {
+        break;
+      } else {
+        _0x368db7.push(_0x368db7.shift());
+      }
+    } catch (_0x49485c) {
+      _0x368db7.push(_0x368db7.shift());
+    }
+  }
+})(_0x33b1, 217579);
+var commands = [];
+function _0x50f837(_0x23b63c, _0x2b791b, _0xb602a8, _0x5c5d78, _0xd1a6f2) {
+  return _0xa17c(_0x5c5d78 - 0x267, _0xd1a6f2);
+}
+function cmd(_0x38bab9, _0x1dcd31) {
+  _0x38bab9["function"] = _0x1dcd31;
+  if (!_0x38bab9.dontAddCommandList) {
+    _0x38bab9.dontAddCommandList = false;
+  }
+  if (!_0x38bab9.desc) {
+    _0x38bab9.desc = '';
+  }
+  if (!_0x38bab9.fromMe) {
+    _0x38bab9.fromMe = false;
+  }
+  if (!_0x38bab9.category) {
+    _0x38bab9.category = "misc";
+  }
+  if (!_0x38bab9.filename) {
+    _0x38bab9.filename = "Not Provided";
+  }
+  commands.push(_0x38bab9);
+  return _0x38bab9;
+}
+var _0x1ab65e = {
+  cmd: cmd,
+  AddCommand: cmd,
+  Function: cmd
 };
+function _0x5ac974(_0x5b1fc6, _0xc37090, _0x3f6457, _0x67a390, _0x2f9e8b) {
+  return _0xa17c(_0x2f9e8b + 0x1b1, _0x67a390);
+}
+function _0x25f69d(_0x5ebe75, _0x547cd3, _0x4312b4, _0xf3e6dd, _0x51197e) {
+  return _0xa17c(_0x4312b4 - 0x302, _0x547cd3);
+}
+_0x1ab65e.Module = cmd;
+_0x1ab65e.commands = commands;
+function _0x372b47(_0x33cfd7, _0x5017af, _0x40d260, _0x2a53c5, _0x8508f3) {
+  return _0xa17c(_0x8508f3 + 0x14, _0x40d260);
+}
+function _0xa17c(_0x426f69, _0x265a3b) {
+  var _0x33b181 = _0x33b1();
+  _0xa17c = function (_0xa17cda, _0xa5c23b) {
+    _0xa17cda = _0xa17cda - 436;
+    var _0x5a8860 = _0x33b181[_0xa17cda];
+    return _0x5a8860;
+  };
+  return _0xa17c(_0x426f69, _0x265a3b);
+}
+module.exports = _0x1ab65e;
